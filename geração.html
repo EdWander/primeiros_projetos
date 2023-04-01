@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(geração) {
+        document.write(geração)
+    }
+
+var titulo = ("Desde 1500 até o ano atual, quantas gerações se passaram?");
+
+    mostra("<h1>" + titulo + "</h1>");
+
+    pulaLinha();
+
+    var chegada = 1500;
+    var atual = 2022;
+    var anospassados = (atual-chegada);
+    var media = anospassados/28;
+
+    mostra("Desde 1500 até o ano atual se passaram " + Math.round(media) + " gerações!")
+    pulaLinha();
+
+</script>    

@@ -1,0 +1,48 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Decodificador de Mensagens - Challenge</title>
+
+        <link rel="icon" href="imagens/Vector.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+        <body>
+            <header>
+                <div class="container">
+                    <h1><img src="imagens/Vector.png" alt="Logo alura"></h1>
+                </div>
+            </header>  
+            <main>           
+                <div class="digitar-texto">
+                    <textarea id="texto-digitar" name="texto-digitar" rows="40" cols="900"
+                        placeholder="Digite seu texto.."></textarea>
+                    <div class="requisitos">
+                        <img src="imagens/vector-exclamacao.png" alt="Ponto de exclamação">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="botoes">
+                        <button type="button" id="botao-cripto">Criptografar</button>
+                        <button type="button" id="botao-descripto">Descriptografrar</button>
+                    </div>
+                </div>
+                <div class="saida-texto">
+                    <p class="retorno-texto" id="retorno-texto"></p>
+                    <img class="imagem-saida" src="imagens/High quality products 1 1.png" alt="Um menino com uma lupa">
+                    <h2 class="mensagem-saida">Nenhuma mensagem encontrada</h2>
+                    <p class="mensagem-informativa">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <button type="button" id="botao-copiar">Copiar</button>
+                </div>
+            </main>
+            <footer>
+
+                <p>Challenge Alura<br>Developer: Geovane Assunção</p>
+                <a href="https://github.com/uburi"> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)" >
+            </footer>
+        </body>
+        <script src="js/criptografar.js"></script>
+        <script src="js/descriptografar.js"></script>
+        <script src="js/botaoCopiar.js"></script>
+    
+</html>
